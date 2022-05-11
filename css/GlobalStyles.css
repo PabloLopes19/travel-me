@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: 'Lato', sans-serif;
+}
+html {
+    scroll-behavior: smooth;
+}
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    width: 100%; height: 100px;
+    padding: 38px 200px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Logo{
+    font-size: 20px;
+    font-weight: bold;
+    color: #000;
+    margin-left: 5px;
+}
+.Logo bold{
+    color: #2ECC71;
+}
+.logoContainer{
+    display: flex;
+    height: 100%;
+    align-items: center;
+    text-decoration: none;
+    margin-right: 18px;
+
+    border-right: 1px solid #ddd;
+    padding-right: 18px;
+}
+
+.Left{
+    display: flex;
+    height: 100%;
+}
+.Right{
+    display: flex;
+    height: 100%;
+}
+
+.headerIcons{
+    color: #000;
+    opacity: .6;
+    width: 20px;
+    margin: 0 5px;
+
+    transition: all .2s;
+    text-decoration: none;
+}
+
+.headerIcons:hover{
+    opacity: .4;
+}
+
+.menuButton{
+    margin-right: 18px;
+    font-size: 15px;
+    font-weight: normal;
+    color: #000;
+    opacity: .6;
+    text-decoration: none;
+
+    transition: all .2s;
+}
+.menuButton:hover{
+    opacity: .2;
+}
+.menuButtons{
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+#home h2{
+    font-size: 40px;
+    font-weight: normal;
+    color: #000;
+    opacity: .6;
+    
+}
+
+.Text_Left{
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+}
+
+.content p {
+    font-size: 20px;
+    color: #000;
+    opacity: .6;       
+}
+.suica{
+    font-size: 80px;
+    margin: 0 10px 10px 0;
+}
+.switzFlag{
+    width: 53px;
+    height: 53px;
+}
+
+.flag{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+/* Páginas */
+
+#home{
+    height: 602px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+    padding: 38px 200px;
+}
+#categorias{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+    padding: 38px 200px;
+}

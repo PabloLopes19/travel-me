@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/GlobalStyles.css">
+    <link rel="shortcut icon" href="assets/Logo Icon.svg" type="image/x-icon">
+    <title>Travel.me</title>
+
+    <!-- Lato Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet"> 
+
+    <!-- Feather icons -->
+    <script src="https://unpkg.com/feather-icons"></script>
+</head>
+<body>
+    <div class="header">
+        <div class="Left">
+            <a href="#" class="logoContainer">
+                <img src="assets/Logo Icon.svg" alt="logoIcon">
+                <span class="Logo">
+                    Travel<bold>.me</bold>
+                </span>                
+            </a>
+
+            <div class="menuButtons">
+                <a class="menuButton" href="#home">Planejamentos</a>
+                <a class="menuButton" href="#categorias">Pontos Turísticos</a>
+                <a class="menuButton" href="#imagens">Imagens</a>
+                <a class="menuButton" href="#preco">Preços</a>
+            </div>
+        </div>
+
+        <div class="Right">
+            <a class="headerIcons" href="https://github.com/PabloLopes19/kapote" target="_blank"><i class="headerIcons" data-feather="github"></i></a>
+        </div>       
+    </div>
+
+    <div id="home">
+        <div class="Text_Left">
+            <div class="title">
+                <h2>Olá Gajos!</h2>
+            </div>
+            <div class="content">
+
+                <p>Nosso destino:</p>
+                <div class="flag">
+                    <h1 class="suica">Suíça</h1>
+                    <img class="switzFlag" src="assets/Switzerland (CH).png" alt="bandeiraSuica">
+                </div>
+                <p>
+                    A Suíça é um país incrível país da Europa Central. 
+                    Conhecida pelos seus queijos e chocolates, setor bancário, 
+                    estações de esqui e muito mais. Ele é um excelente destino de
+                    estudo, principalmente para o setor de turismo e hospitalidade.
+                </p>
+                <a href="#categorias">Saber Mais</a>
+                <a href="#planejamento">Planejamento</a>
+            </div>
+        </div>
+        
+        <div class="Text_Right">
+            <img src="assets/blobSwitzerland.png" alt="Lauterbrunnen, Suíça.">
+            <p>Lauterbrunnen, Suíça.</p>
+        </div> 
+    </div>
+
+    <div id="categorias" class="categorias">
+        <h1>Categorias</h1>
+        <a class="categorieButton" href="#">Planejamentos</a>
+        <a class="categorieButton" href="#">Pontos Turísticos</a>
+        <a class="categorieButton" href="#">Imagens</a>
+        <a class="categorieButton" href="#">Preços</a>
+    </div>
+    
+    
+    <div id="planejamento" class="planejamento">
+        <h1>Planejamentos</h1>
+        <div class="listCard">
+            <h1>Cidades para conhecer</h1>
+            <ul>
+                <li>Basileia, Belinzona, Berna, Biel</li>
+                <li>Chur</li>
+                <li>Friburgo</li>
+                <li>Genebra</li>
+                <li>La Chaux-de-Fonds , Lausanne, - - </li>
+                <li>Locarno, Lucerna</li>
+                <li>Montreux Riviera</li>
+                <li>Neuchâtel</li>
+                <li>Schaffhausen, Solothurn, St.Gallen</li>
+                <li>Thun</li>
+                <li>Winterthur</li>
+                <li>Zug, C</li>
+            </ul>
+            <p>Fonte: <a href="#">Confia</a></p>
+        </div>
+
+        <div class="listCard">
+            <h1>Preço médio passagens</h1>
+                <div class="preco">
+                     <p>Zurique</p>
+                     <p>R$10.500,00</p>
+                </div>
+                <div class="preco">
+                    <p>Genebra</p>
+                    <p>R$9.000,00</p>
+                </div>
+                <div class="preco">
+                    <p>Lugano</p>
+                    <p>R$8.500,00</p>
+                </div>
+                <div class="preco">
+                    <p>Basíléia</p>
+                    <p>R$00,00</p>
+                </div>
+            <p>Comprar passagens  <a href="#">aqui</a></p>
+        </div>
+    </div>
+
+    <div class="Pontos_turisticos">
+
+    </div>
+
+    <script>
+        feather.replace();
+    </script>
+</body>
+</html>
