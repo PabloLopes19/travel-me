@@ -285,7 +285,8 @@ body{
 .sectionTitle{
     font-size: 20px;
     font-weight: bold;
-    margin-bottom: 10px;
+    margin-top: 35px;
+    margin-bottom: 35px;
 }
 
 .materialButton{
@@ -375,7 +376,8 @@ body{
 .pontosCards{
     display: flex;
     width : 200px;
-    margin : 35px 180px
+    margin : 35px 180px;
+    padding-left: 9%;
 }
 
 .pontoCard{
@@ -398,9 +400,32 @@ body{
 
 .Imagens img {
     margin-top: 35px;
+    border-radius: 15px;
 }
 
 .foto1{
     width: 944px;
     height: 475px
+}
+
+.Preços{
+    margin-top: 35px;
+    padding-bottom: 10%;
+    text-align: center;
+    margin: auto;
+}
+
+
+bold{
+    color:#2ECC71
+}
+
+.total{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 30px;
+    padding-top: 25%;
+    padding-bottom: 10% ;
 }
