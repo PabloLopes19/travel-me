@@ -205,8 +205,32 @@ body{
 
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
     justify-content: space-between;
+}
+.listCard h1 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.credits{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+.credits a {
+    color: #2ECC71;
+    text-decoration: none;
+
+    transition: all .2s;
+}
+
+.credits a:hover{
+    opacity: .4;
 }
 
 .listCard ul{
@@ -367,6 +391,8 @@ body{
     display: flex;
     flex-direction: column;
     margin-top: 68px;
+    width: 100%;
+    padding: 0 200px;
 }
 
 .pontosTuristicos h1 {
@@ -375,13 +401,15 @@ body{
 
 .pontosCards{
     display: flex;
-    width : 200px;
-    margin : 35px 180px;
-    padding-left: 9%;
+    justify-content: center;
+    width : 100%;
+    /* padding: 0 300px; */
 }
 
 .pontoCard{
-    margin: 0px 48px
+    width: 200px;
+    margin: 0 25px;
+    /* margin: 0px 48px */
 }
 
 .pontoCard h3{
