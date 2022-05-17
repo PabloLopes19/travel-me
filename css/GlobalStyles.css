@@ -172,14 +172,104 @@ body{
 }
 
 #categorias{
-    height: 100vh;
+    height: 60vh;
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
 
     padding: 38px 200px;
 }
+
+#planejamento {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    width: 100%; min-height: 60vh;
+}
+
+.cards{
+    display: flex;
+    margin-top: 50px;
+}
+.listCard{
+    margin: 0 30px;
+    padding: 30px;
+    border: 2px solid #ddd;
+    border-radius: 6px;
+    width: 310px;
+    min-height: 300px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.listCard ul{
+    margin-top: 15px;
+    padding: 12px;
+
+    color: black;
+    opacity: .4;
+}
+
+.listCard ul li{
+    margin-bottom: 5px;
+}
+.place {
+    color: #aaa;
+    margin-top: 10px;
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+}
+.listCard p a{
+    color: #2ECC71;
+    opacity: 1;
+    font-weight: bold;
+    text-decoration: none;
+
+    margin-left: 3px;
+
+    transition: all .2s;
+}
+
+.link{
+    color: #aaa;
+    margin-top: 10px;
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+}
+
+.preco {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 30px;
+}
+.price {
+    color: #2ECC71;
+    text-align: right;
+
+    display: flex;
+    justify-content: flex-end;
+}
+.top{
+    width: 100%;
+}
+
+.listCard p a:hover{
+    opacity: .2;
+}
+
 .buttonsRow{
     width: 100%;
     display: flex;
@@ -195,6 +285,7 @@ body{
 .sectionTitle{
     font-size: 20px;
     font-weight: bold;
+    margin-bottom: 10px;
 }
 
 .materialButton{
@@ -235,7 +326,7 @@ body{
 }
 
 .sectionButton{
-    margin: 10px;
+    margin: 10px 20px;
     padding: 20px;
     border: 2px solid #ddd;
     border-radius: 6px;
@@ -269,4 +360,47 @@ body{
     text-decoration: none;
     font-size: 15px;
     font-weight: bold;
+}
+
+.pontosTuristicos {
+    display: flex;
+    flex-direction: column;
+    margin-top: 68px;
+}
+
+.pontosTuristicos h1 {
+    text-align: center;
+}
+
+.pontosCards{
+    display: flex;
+    width : 200px;
+    margin : 35px 180px
+}
+
+.pontoCard{
+    margin: 0px 48px
+}
+
+.pontoCard h3{
+    font-size: 15px;
+}
+
+.pontoCard p{
+    font-size: 12px;
+    opacity: 0.6;
+}
+
+.Imagens{
+    margin-top: 35px;
+    text-align: center;
+}
+
+.Imagens img {
+    margin-top: 35px;
+}
+
+.foto1{
+    width: 944px;
+    height: 475px
 }

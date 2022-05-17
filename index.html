@@ -27,10 +27,10 @@
             </a>
 
             <div class="menuButtons">
-                <a class="menuButton" href="#home">Planejamentos</a>
-                <a class="menuButton" href="#categorias">Pontos Turísticos</a>
-                <a class="menuButton" href="#imagens">Imagens</a>
-                <a class="menuButton" href="#preco">Preços</a>
+                <a class="menuButton" href="#planejamento">Planejamentos</a>
+                <a class="menuButton" href="#pontosTuristicos">Pontos Turísticos</a>
+                <a class="menuButton" href="#Imagens">Imagens</a>
+                <a class="menuButton" href="#Preços">Preços</a>
             </div>
         </div>
 
@@ -78,25 +78,25 @@
         <h1 class="sectionTitle">Categorias</h1>
 
         <div class="buttonsRow">
-            <a href="#">
+            <a href="#planejamento">
                 <div class="sectionButton">
                     <i class="sectionIcon" data-feather="map"></i>
                     <span class="categorieButton">Planejamentos</span>
                 </div>
             </a>
-            <a href="#">
+            <a href="#pontosTuristicos">
                 <div class="sectionButton">
                     <i class="sectionIcon" data-feather="camera"></i>
                     <span class="categorieButton">Pontos Turísticos</span>
                 </div>
             </a>
-            <a href="#">
+            <a href="#Imagens">
                 <div class="sectionButton">
                     <i class="sectionIcon" data-feather="image"></i>
                     <span class="categorieButton">Imagens</span>
                 </div>
             </a>
-            <a href="#">
+            <a href="#Preços">
                 <div class="sectionButton">
                     <i class="sectionIcon" data-feather="dollar-sign"></i>
                     <span class="categorieButton">Preços</span>
@@ -108,86 +108,114 @@
     
     
     <div id="planejamento" class="planejamento">
-        <h1>Planejamentos</h1>
-        <div class="listCard">
-            <h1>Cidades para conhecer</h1>
-            <ul>
-                <li>Basileia, Belinzona, Berna, Biel</li>
-                <li>Chur</li>
-                <li>Friburgo</li>
-                <li>Genebra</li>
-                <li>La Chaux-de-Fonds , Lausanne, - - </li>
-                <li>Locarno, Lucerna</li>
-                <li>Montreux Riviera</li>
-                <li>Neuchâtel</li>
-                <li>Schaffhausen, Solothurn, St.Gallen</li>
-                <li>Thun</li>
-                <li>Winterthur</li>
-                <li>Zug, C</li>
-            </ul>
-            <p>Fonte: <a href="#">Confia</a></p>
+        <h1 class="sectionTitle">Planejamentos</h1>
+
+        <div class="cards">
+            <div class="listCard">
+                <div class="top">
+                    <h1 class="sectionTitle" >Cidades para conhecer</h1>
+                    <ul>
+                        <li>Basileia, Belinzona, Berna, Biel</li>
+                        <li>Chur</li>
+                        <li>Friburgo</li>
+                        <li>Genebra</li>
+                        <li>La Chaux-de-Fonds, Lausanne </li>
+                        <li>Locarno, Lucerna</li>
+                        <li>Montreux Riviera</li>
+                        <li>Neuchâtel</li>
+                        <li>Schaffhausen, Solothurn, St.Gallen</li>
+                        <li>Thun</li>
+                        <li>Winterthur</li>
+                        <li>Zug, C</li>
+                    </ul>
+                </div>
+                
+                <p class="link">Fonte: <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Confia.</a></p>
+            </div>
+    
+            <div class="listCard">
+                <div class="top">
+                    <h1 class="sectionTitle">Preço médio passagens</h1>
+                    <div class="preco">
+                        <p class="place">Zurique</p>
+                        <p class="price">R$10.500,00</p>
+                    </div>
+                    <div class="preco">
+                        <p class="place">Genebra</p>
+                        <p class="price">R$9.000,00</p>
+                    </div>
+                    <div class="preco">
+                        <p class="place">Lugano</p>
+                        <p class="price">R$8.500,00</p>
+                    </div>
+                    <div class="preco">
+                        <p class="place">Basíléia</p>
+                        <p class="price">R$00,00</p>
+                    </div>
+                </div>
+                <p class="link">Comprar passagens <a href="#"> aqui.</a></p>
+            </div>
         </div>
 
-        <div class="listCard">
-            <h1>Preço médio passagens</h1>
-                <div class="preco">
-                     <p>Zurique</p>
-                     <p>R$10.500,00</p>
-                </div>
-                <div class="preco">
-                    <p>Genebra</p>
-                    <p>R$9.000,00</p>
-                </div>
-                <div class="preco">
-                    <p>Lugano</p>
-                    <p>R$8.500,00</p>
-                </div>
-                <div class="preco">
-                    <p>Basíléia</p>
-                    <p>R$00,00</p>
-                </div>
-            <p>Comprar passagens  <a href="#">aqui</a></p>
+
+    </div>
+
+    <div class="pontosTuristicos" id="pontosTuristicos" >
+        <h1 class="sectionTitle" >Pontos Turísticos</h1>
+
+        <div class="pontosCards">
+            <div class="pontoCard">
+                <img src="assets/parque_ursos.png" />
+                <h3>Parque dos Ursos - Berna</h3>
+                <p>
+                    O urso é o principal símbolo de Berna.
+                    Desde o início do século XVI, os moradores 
+                    de Berna preservam os ursos da região.
+                </p>
+            </div>
+            
+            <div  class="pontoCard">
+                <img src="assets/castelo_de_chilon.png"/>  
+                <h3 >Castelo de Chilon - Veytaux</h3>
+                <p>
+                    O Castelo de Chillon é um dos castelos da Suíça 
+                    mais conhecidos em todo o mundo, além de ser 
+                    o monumento suíço mais visitado e um dos mais 
+                    bem preservados da Europa.
+                </p>
+             </div>
+    
+             <div class="pontoCard">
+                <img src="assets/lago_leman.png">
+                <h3>Lago Léman - Genebra</h3>
+                <p>
+                    Além do entorno arborizado e limpo, 
+                    há suntuosos castelos nas proximidades, vinícolas 
+                    e uma série de vilarejos, são 180 quilômetros 
+                    de circunferência e 73 km de extensão. 
+                </p>
+             </div>
+    
+            <div class="pontoCard">
+                <img src="assets/passeio_de_trem.png">
+                <h3>Passeio de trem - Alpes suíços</h3>
+                <p>
+                    O famoso Glacier Express faz o trajeto entre 
+                    Zermatt (Matterhorn) à St. Moritz (Engadine Superior), 
+                    no chamado “circuito das geleiras”.
+                </p>
+            </div>
         </div>
     </div>
 
-    <div class="Pontos_turisticos">
-        <h1>Pontos Turísticos</h1>
-        <h3>Parque dos Ursos - Berna</h3>
-        <p>
-            O urso é o principal símbolo de Berna.
-            Desde o início do século XVI, os moradores 
-            de Berna preservam os ursos da região.
-        </p>
-        <h3>Castelo de Chilon - Veytaux</h3>
-        <p>
-            O Castelo de Chillon é um dos castelos da Suíça 
-            mais conhecidos em todo o mundo, além de ser 
-            o monumento suíço mais visitado e um dos mais 
-            bem preservados da Europa.
-        </p>
-        <h3>Lago Léman - Genebra</h3>
-        <p>
-            Além do entorno arborizado e limpo, 
-            há suntuosos castelos nas proximidades, vinícolas 
-            e uma série de vilarejos, são 180 quilômetros 
-            de circunferência e 73 km de extensão. 
-        </p>
-        <h3>Passeio de trem - alpes suíços</h3>
-        <p>
-            O famoso Glacier Express faz o trajeto entre 
-            Zermatt (Matterhorn) à St. Moritz (Engadine Superior), 
-            no chamado “circuito das geleiras”.
-        </p>
+    <div class="Imagens" id="Imagens">
+        <h1 class="sectionTitle">Imagens</h1>
+        <img src="assets/foto1.png" alt="foto1" class="foto1">
     </div>
 
-    <div class="Imagens">
-        <h1>Imagens</h1>
-        <img src="assets/foto1.png" alt="foto1">
-    </div>
-
-    <div class="Preços">
-        <h1>Preços</h1>
-        <h1>Preço total da viagem</h1>
+    <div class="Preços" id="Preços">
+        <h1 class="sectionTitle" >Preços</h1>
+        <h1 class="sectionTitle" >Preço total da viagem</h1>
             <div class="preco">
                 <p>Passagens</p>
                 <p>R$10.500,00</p>
