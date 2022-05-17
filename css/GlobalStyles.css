@@ -417,8 +417,9 @@ body{
 }
 
 .pontoCard p{
+    margin-top: 5px;
     font-size: 12px;
-    opacity: 0.6;
+    opacity: .6;
 }
 
 .Imagens{
